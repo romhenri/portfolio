@@ -229,7 +229,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.webp") top center;
   background-size: cover;
 }
 
@@ -518,7 +518,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.portfolio .portfolio-container {
   margin-bottom: 30px;
 }
 
@@ -1091,4 +1091,8 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.portfolio-wrap {
+  aspect-ratio: 16 / 9;
 }
