@@ -42,11 +42,11 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
--   [ ] Sessão Sobre;
--   [ ] Sessão Estatísticas;
--   [ ] Sessão Habilidades;
--   [ ] Sessão Música de Fundo;
--   [ ] Sessão Experiência;
--   [ ] Sessão Portfólio;
--   [ ] Sessão Contato;
--   [ ] Modo Escuro.
+-   [ ] Improve About section;
+-   [ ] Add Stats section;
+-   [ ] Improve Skills section;
+-   [ ] Ambient Music;
+-   [x] Improve Work Experience section;
+-   [ ] Improve Portfolio section;
+-   [ ] Improve Contact section;
+-   [ ] Dark mode.
