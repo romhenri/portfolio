@@ -334,6 +334,15 @@
   width: 300px;
   z-index: 9999;
   background: #040b14;
+  opacity: .9;
+}
+
+#footer a {
+  color: #eaebf0;
+}
+
+#footer a:hover {
+  text-decoration: underline;
 }
 
 #footer .copyright {

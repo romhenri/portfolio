@@ -49,4 +49,4 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 -   [x] Improve Work Experience section;
 -   [ ] Improve Portfolio section;
 -   [ ] Improve Contact section;
--   [ ] Dark mode.
+-   [x] Dark mode.
