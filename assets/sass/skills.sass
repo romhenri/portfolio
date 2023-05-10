@@ -1,0 +1,23 @@
+#skills .container .row
+	display: flex
+	flex-direction: row
+	gap:10px
+	margin: 0 10px
+	
+.shelf
+	display: flex
+	justify-content: space-around
+	align-items: center
+
+	outline: 2px solid var(--text-b)
+	padding: 10px
+	border-radius: 5px
+
+	width: 49%
+	@media (max-width: $mobile) 
+		width: 100%
+	
+	img
+		transition: 0.3s ease-out
+		&:hover
+			scale: 115%
