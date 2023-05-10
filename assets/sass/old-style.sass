@@ -122,9 +122,10 @@ header
 @media (max-width: 1199px)
 	#header
 		left: -300px
-
 	#main
 		margin-left: 0
+	section
+		padding: 60px 0 60px 0px !important
 .config 
 	display: flex 
 	justify-content: start 
@@ -264,13 +265,13 @@ header
 		font-size: 28px 
 		line-height: 36px 
 section 
-	padding: 60px 0 
+	padding: 60px 0 60px 100px
 	overflow: hidden 
 
 .section-bg 
 	background: var(--bg2) 
 .section-title 
-	padding-bottom: 30px 
+	padding-bottom: 20px 
 	h2 
 		font-size: 32px 
 		font-weight: bold 
@@ -311,7 +312,12 @@ section
 				line-height: 0 
 		p 
 			&:last-child 
-				margin-bottom: 0 
+				margin-bottom: 0
+#about .section-title
+	padding-bottom: 0px
+#about .img-fluid
+	border-radius: 20%
+	max-height: 350px
 .facts 
 	padding-bottom: 30px 
 	.count-box 
