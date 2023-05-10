@@ -44,7 +44,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 -   [ ] Improve About section;
 -   [ ] Add Stats section;
--   [ ] Improve Skills section;
+-   [x] Improve Skills section;
 -   [ ] Ambient Music;
 -   [x] Improve Work Experience section;
 -   [ ] Improve Portfolio section;
