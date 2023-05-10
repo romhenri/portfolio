@@ -43,7 +43,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 -   [ ] Improve About section;
--   [ ] Add Stats section;
+-   [x] Add Stats section;
 -   [x] Improve Skills section;
 -   [ ] Ambient Music;
 -   [x] Improve Work Experience section;
