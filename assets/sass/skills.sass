@@ -16,8 +16,30 @@
 	width: 49%
 	@media (max-width: $mobile) 
 		width: 100%
-	
-	img
+
+	a
+		display: flex
+		align-items: center
+		flex-direction: column
+		justify-content: space-between
+		font-size: .8rem
+		height: 100%
+		text-align: center
+		color: var(--text-a)
+
 		transition: 0.3s ease-out
 		&:hover
 			scale: 115%
+
+		small
+			font-size: small
+			font-style: italic
+			opacity: .6
+
+@media (min-width: $mobile)
+	.shelf
+		margin-top: 10px
+
+@media (max-width: $mobile)
+	#skills .container .row
+		margin-top: 10px
