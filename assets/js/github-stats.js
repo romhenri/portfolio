@@ -1,6 +1,7 @@
 const APIURL = "https://api.github.com/users/";
 
 var publicRepos = document.querySelector(".public-repos");
+var starsCount = document.querySelector(".stars-count");
 
 let username = "romhenri";
 
@@ -23,27 +24,19 @@ function updateStats(data) {
 	${data.public_repos}
 	`;
 }
-fetch(apiUrl)
+
+// Commits
+
+const token = "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";
+
+// Starts
+
+fetch("https://api.github.com/users/romhenri/repos")
 	.then((response) => response.json())
 	.then((data) => {
-		// Percorre a lista de repositórios e faz uma solicitação separada para obter a lista de commits em cada um
+		let totalStars = 0;
 		data.forEach((repo) => {
-			fetch(`https://api.github.com/repos/${repo.full_name}/commits`)
-				.then((response) => response.json())
-				.then((data) => {
-					// Exibe a lista de commits em um elemento HTML no seu site
-					const commitsList = document.getElementById("commits-list");
-					data.forEach((commit) => {
-						const commitItem = document.createElement("li");
-						commitItem.innerText = `${commit.commit.author.name} - ${commit.commit.message} - ${commit.commit.author.date}`;
-						commitsList.appendChild(commitItem);
-					});
-				})
-				.catch((error) => {
-					console.error(error);
-				});
+			totalStars += repo.stargazers_count;
 		});
-	})
-	.catch((error) => {
-		console.error(error);
+		starsCount.innerHTML = `${totalStars}`;
 	});
