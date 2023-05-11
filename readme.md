@@ -40,7 +40,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
--   [ ] Improve About section;
+-   [x] Improve About section;
 -   [x] Add Stats section;
 -   [x] Improve Skills section;
 -   [ ] Ambient Music;
@@ -48,3 +48,4 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 -   [ ] Improve Portfolio section;
 -   [ ] Improve Contact section;
 -   [x] Dark mode.
+-   [ ] Studing Skills

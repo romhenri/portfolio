@@ -27,6 +27,9 @@
 		text-align: center
 		color: var(--text-a)
 
+		&.loading:hover
+			scale: 100%
+
 		transition: 0.3s ease-out
 		&:hover
 			scale: 115%
@@ -43,3 +46,17 @@
 @media (max-width: $mobile)
 	#skills .container .row
 		margin-top: 10px
+
+.loading
+	cursor: default
+	position: relative
+
+	img, small
+		filter: brightness(40%)
+
+	&::before
+		color: #fff !important
+		content: 'Estudando'
+		position: absolute
+		top: 30%
+		z-index: 3
