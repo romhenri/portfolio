@@ -43,9 +43,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 -   [x] Improve About section;
 -   [x] Add Stats section;
 -   [x] Improve Skills section;
+-   [ ] Certificates section;
 -   [ ] Ambient Music;
 -   [x] Improve Work Experience section;
 -   [ ] Improve Portfolio section;
 -   [ ] Improve Contact section;
 -   [x] Dark mode.
--   [ ] Studing Skills
+-   [ ] Studying Skills
