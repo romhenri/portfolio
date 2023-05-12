@@ -52,11 +52,13 @@
 	position: relative
 
 	img, small
-		filter: brightness(40%)
+		opacity: .4
 
 	&::before
-		color: #fff !important
+		color: var(--text-c) !important
 		content: 'Estudando'
+		background-color: var(--bg2)
+		border-radius: 10%
 		position: absolute
 		top: 30%
 		z-index: 3
