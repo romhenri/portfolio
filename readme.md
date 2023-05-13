@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/romhenri/portfolio?style=for-the-badge)
 
-<img src="assets/img/website-beta.png" alt="Site Portfólio">
+<img src="assets/img/portfolio/website-1.0.png" alt="Site Portfólio">
 
 > Meu Portfólio Profissional.
 
@@ -48,5 +48,5 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 -   [x] Improve Work Experience section;
 -   [x] Improve Portfolio section;
 -   [x] Improve Contact section;
--   [x] Dark mode.
--   [x] Studying Skills
+-   [x] Dark mode;
+-   [x] Studying Skills.
