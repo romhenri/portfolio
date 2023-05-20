@@ -1,42 +1,43 @@
-const APIURL = "https://api.github.com/users/";
+const APIURL = 'https://api.github.com/users/'
 
-var publicRepos = document.querySelector(".public-repos");
-var starsCount = document.querySelector(".stars-count");
+var publicRepos = document.querySelector('.public-repos')
+var starsCount = document.querySelector('.stars-count')
 
-let username = "romhenri";
+let username = 'romhenri'
 
-getUser(username);
+getUser(username)
 
 async function getUser(username) {
 	try {
-		const { data } = await axios(APIURL + username);
+		const { data } = await axios(APIURL + username)
 
-		updateStats(data);
+		updateStats(data)
 	} catch (err) {
-		console.log("Stats do Github NÃO carregados");
+		console.log('Stats do Github NÃO carregados')
 	}
 }
 
 function updateStats(data) {
-	console.log("Stats do Github carregados");
+	console.log('Stats do Github carregados')
 
 	publicRepos.innerHTML = `
 	${data.public_repos}
-	`;
+	`
 }
 
 // Commits
 
-const token = "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";
+const token = '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'
 
 // Starts
 
-fetch("https://api.github.com/users/romhenri/repos")
+fetch('https://api.github.com/users/romhenri/repos')
 	.then((response) => response.json())
 	.then((data) => {
-		let totalStars = 0;
+		let totalStars = 0
 		data.forEach((repo) => {
-			totalStars += repo.stargazers_count;
-		});
-		starsCount.innerHTML = `${totalStars}`;
-	});
+			totalStars += repo.stargazers_count
+		})
+		starsCount.innerHTML = `${totalStars}`
+		counterAnimation()
+	})
