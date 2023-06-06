@@ -30,6 +30,9 @@
 		&.loading:hover
 			scale: 100%
 
+		&.future:hover
+			scale: 100%
+
 		transition: 0.3s ease-out
 		&:hover
 			scale: 115%
@@ -57,6 +60,22 @@
 	&::before
 		color: var(--text-c) !important
 		content: 'Estudando'
+		background-color: var(--bg2)
+		border-radius: 10%
+		position: absolute
+		top: 30%
+		z-index: 3
+
+.future
+	cursor: default
+	position: relative
+
+	img, small
+		opacity: .4
+
+	&::before
+		color: var(--text-c) !important
+		content: 'No Futuro'
 		background-color: var(--bg2)
 		border-radius: 10%
 		position: absolute
