@@ -1,7 +1,7 @@
 #certificates .modern-card
-	width: 400px
+	min-width: 380px
+	width: 380px
 	max-height: 103px
-	margin-top: 10px
 	p
 		width: 100%
 	text-align: left
@@ -9,14 +9,14 @@
 #certificates .modern-card .card-header
 	padding-bottom: 0px
 
-.flexbox .row
+.flexbox
+	margin: auto
+	flex-direction: column !important
 	width: 100%
 	gap: 10px
-	margin-top: 10px
-	justify-content: flex-start
-
-	&:first-child
-		margin-top: 0px
+	justify-content: center
+	flex-wrap: nowrap
+	flex: 1 1 200px
 
 @media (max-width: $mobile) 
 	.card-header
@@ -26,7 +26,5 @@
 		width: 380px !important
 
 @media (max-width: $half-screen)
-	.flexbox .modern-card
-		margin: auto
 	#resume .modern-card
 		margin: auto
